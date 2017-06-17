@@ -164,6 +164,10 @@ factor: group
         $<dval>$ = $1;
         stmt_has_float = 1;
     }
+    | SUB factor
+    {
+        $$ = -$2;
+    }
     | ID 
     {
         int check;

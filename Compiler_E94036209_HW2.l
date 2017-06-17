@@ -11,7 +11,7 @@ extern int yylineno;
 
 letter		[a-zA-Z]
 digit		[0-9]
-num			[+-]?[0-9]+
+num			[0-9]+
 floatnum	[+-]?{num}\.{num}
 id			{letter}+({letter}|{digit})*
 sem			[;]

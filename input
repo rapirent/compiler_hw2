@@ -3,3 +3,17 @@ int b = -5.5;
 a = b * 20.55;
 b = a / (5 + 5);
 print(a);
+
+int c = -5;
+double d = -5.5;
+
+c = 5 - 10;
+
+print(c);
+
+print(d);
+
+print(c*d);
+print(b*2);
+int e = 5;
+e = e * Q;
